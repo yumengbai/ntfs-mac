@@ -1,0 +1,5 @@
+打开终端后输入 diskutil list 查看所有分区的卷标
+sudo nano /etc/fstab
+LABEL=这是盘的NAME
+为了个人方便可以给这个新加卷在桌面创建一个软链接
+ln -s /Volumes/新加卷  /Users/Macx/Desktop/newDisk
